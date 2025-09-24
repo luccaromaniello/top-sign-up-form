@@ -10,7 +10,8 @@ The solution is available at (coming soon).
 By the time this challenge was completed, the core concepts of this challenge include:
 - Recreate the provided design layout (`original-layout.png` in the repository), with the option to customize some aspects of it.
 - Use only HTML and pure CSS (no frameworks or libraries).
-- Focus on semantic HTML and form validation using HTML5 (JavaScript validation comes in later projects).
+- Focus on semantic HTML and form validation using HTML5 (JavaScript validation is implemented in later projects).
+- Responsive design is addressed in later projects, so mobile visualization was not considered.
 
 ## Observations
 - The course gets regular updates from the open-source community, so things might look a little different now compared to when this project was done.
