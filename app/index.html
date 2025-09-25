@@ -7,10 +7,59 @@
     <title>Lucca Romaniello - The Odin Project (Sign-up Form)</title>
   </head>
   <body>
-    <form action="/submit" method="post">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
-      <button type="submit">Submit</button>
-    </form>
+    <aside>
+      <figure>
+        <!--<img
+          src="assets/leaf-unsplash.jpg"
+          alt="A leaf scenic photo by Halie West"
+        />-->
+        <h1>Odin</h1>
+        <figcaption>
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Halie West</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a
+          >
+        </figcaption>
+      </figure>
+    </aside>
+    <main>
+      <section>
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <h2>Sign up <em>now</em> to get started.</h2>
+        <p>You <em>know</em> you want to.</p>
+      </section>
+      <form action="/submit" method="post">
+        <p>Let's do this!</p>
+        <label for="email">First name</label>
+        <input type="text" id="first_name" name="first_name" required />
+        <label for="last_name">Last name</label>
+        <input type="test" id="last_name" name="last_name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" required />
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+        <label for="confirm_password">Confirm password</label>
+        <input
+          type="password"
+          id="confirm_password"
+          name="confirm_password"
+          required
+        />
+        <button type="submit">Create Account</button>
+        <p>Already have an account?</p>
+        <a href="/">Log in</a>
+      </form>
+    </main>
   </body>
 </html>
