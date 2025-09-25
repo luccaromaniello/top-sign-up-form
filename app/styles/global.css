@@ -27,14 +27,26 @@ aside {
   background-position: center;
 }
 
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.4);
+  width: 100%;
+  margin-top: 192px;
+  padding: 8px 0;
+}
+img#logo {
+  width: 96px;
+}
+
 h1 {
   font-family: "Norse Bold", Arial, Helvetica, sans-serif;
-  background-color: rgb(0, 0, 0, 0.4);
   color: white;
   font-size: 6rem;
-  width: 100%;
   text-align: center;
-  margin-top: 192px;
 }
 
 .credits {
