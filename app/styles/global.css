@@ -113,8 +113,8 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   row-gap: 20px;
-  column-gap: 96px;
-  max-width: 720px;
+  column-gap: 88px;
+  max-width: 640px;
 }
 
 .input-content {
