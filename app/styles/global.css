@@ -12,12 +12,12 @@
 
 @font-face {
   font-family: "Norse Bold";
-  src: url("../assets/fonts/Norse-Bold.otf");
+  src: url("../assets/fonts/Norse-Bold.woff2");
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../assets/fonts/Roboto-Variable.ttf");
+  src: url("../assets/fonts/Roboto-Variable.woff2");
 }
 
 body {
@@ -58,8 +58,9 @@ aside {
   background-color: var(--overlay);
   width: 100%;
   margin-top: 192px;
-  padding: 8px 0;
+  padding: 12px 0;
 }
+
 img#logo {
   width: 96px;
 }
@@ -127,6 +128,7 @@ main {
 .input-content {
   display: flex;
   flex-direction: column;
+  gap: 2px;
 }
 
 label {
