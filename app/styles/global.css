@@ -1,7 +1,10 @@
 :root {
   --white: #ffffff;
   --neutral-white: #f9fafb;
+  --neutral-lightgrey: #e5e7eb;
+  --neutral-grey: #303947;
   --neutral-black: #111111;
+  --blue: #5d7fde;
   --overlay: rgb(0, 0, 0, 0.4);
   --primary: #596d48;
   --horizontal-margin: 48px;
@@ -99,25 +102,41 @@ main {
 .form-content {
   background-color: var(--white);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 12px 0px;
-  padding: 20px var(--horizontal-margin) 32px;
+  padding: 20px var(--horizontal-margin) 40px;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.form-content .inputs {
+.form-content .inputs-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 8px;
+  row-gap: 20px;
+  column-gap: 96px;
+  max-width: 720px;
 }
 
 .input-content {
   display: flex;
   flex-direction: column;
-  gap: 2px;
 }
 
 label {
   text-transform: uppercase;
+  color: var(--neutral-grey);
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+input {
+  border-radius: 4px;
+  border: 1px solid var(--neutral-lightgrey);
+  padding: 4px 8px;
+}
+
+input:focus {
+  border: 1px solid var(--blue);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 12px 0px;
 }
