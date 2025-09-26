@@ -79,7 +79,7 @@ main {
 }
 
 .callout {
-  padding: 56px var(--horizontal-margin);
+  padding: 0 var(--horizontal-margin) 56px;
   text-wrap: balance;
 }
 
@@ -100,6 +100,9 @@ main {
   background-color: var(--white);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 12px 0px;
   padding: 20px var(--horizontal-margin) 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .form-content .inputs {
