@@ -176,4 +176,11 @@ button:hover {
   display: flex;
   flex-direction: row;
   gap: 4px;
+  font-size: 1.1rem;
+}
+
+.login-action a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: bold;
 }
