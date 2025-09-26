@@ -4,6 +4,7 @@
   --neutral-black: #111111;
   --overlay: rgb(0, 0, 0, 0.4);
   --primary: #596d48;
+  --horizontal-margin: 48px;
 }
 
 @font-face {
@@ -21,6 +22,8 @@ body {
   font-size: 16px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   background-color: var(--neutral-white);
+  display: flex;
+  flex-direction: row;
 }
 
 aside {
@@ -67,4 +70,33 @@ h1 {
 
 .credits a {
   color: var(--white);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.callout {
+  padding: 56px var(--horizontal-margin);
+  text-wrap: balance;
+}
+
+.callout :nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.heading h2 {
+  font-size: 1.5rem;
+}
+
+.form-content {
+  background-color: var(--white);
+  padding: 20px var(--horizontal-margin) 32px;
 }
