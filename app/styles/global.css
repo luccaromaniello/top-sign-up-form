@@ -4,7 +4,7 @@
   --neutral-lightgrey: #e5e7eb;
   --neutral-grey: #303947;
   --neutral-black: #111111;
-  --blue: #5d7fde;
+  --red: #ce6262;
   --overlay: rgb(0, 0, 0, 0.4);
   --primary: #596d48;
   --horizontal-margin: 48px;
@@ -137,6 +137,14 @@ input {
 }
 
 input:focus {
-  border: 1px solid var(--blue);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 12px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;
+  outline: 1px solid blue;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+input:invalid {
+  border: 1px solid var(--red);
 }
