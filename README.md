@@ -3,7 +3,7 @@
 
 ## Solution
 
-The solution is available at (coming soon).
+The solution is available at [https://odin.luccaromaniello.com/sign-up-form/](https://odin.luccaromaniello.com/sign-up-form/).
 
 ## Overview
 
