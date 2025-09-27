@@ -5,7 +5,7 @@
 
 The solution is available at [https://odin.luccaromaniello.com/sign-up-form/](https://odin.luccaromaniello.com/sign-up-form/).
 
-## Overview
+## Instructions
 
 By the time this challenge was completed, the core concepts of this challenge include:
 - Recreate the provided design layout (`original-layout.png` in the repository), with the option to customize some aspects of it.
